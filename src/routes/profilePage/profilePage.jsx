@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Chat from "../../components/chat/Chat";
 import List from "../../components/list/List";
 import "./profilePage.scss";
@@ -9,7 +10,7 @@ function ProfilePage() {
         <div className="wrapper">
           <div className="title">
             <h1>Owner Information</h1>
-            <a href='/profileupdate'>Create Profile</a>
+            <Link to='/profileupdate'>Create Profile</Link>
           </div>
           <div className="info">
             <span>
@@ -28,7 +29,7 @@ function ProfilePage() {
           </div>
           <div className="title">
             <h1>Owner List</h1>
-            <a href="/">{'<-'}Back to Home</a>
+            <Link to="/">{'<-'}Back to Home</Link>
           </div>
           <List />
           <div className="title">

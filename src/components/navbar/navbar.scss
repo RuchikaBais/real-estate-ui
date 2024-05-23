@@ -47,6 +47,7 @@ nav {
       }
     }
   }
+
   .right {
     flex: 2;
     display: flex;
@@ -64,13 +65,12 @@ nav {
       margin: 20px;
     }
 
-    .user{
+    .user {
       display: flex;
       align-items: center;
       font-weight: bold;
-      cursor: pointer;
 
-      img{
+      img {
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -78,20 +78,20 @@ nav {
         margin-right: 20px;
       }
 
-      span{
-        @include sm{
+      span {
+        @include sm {
           display: none;
         }
       }
 
-      .profile{
+      .profile {
         padding: 12px 24px;
         background-color: #fece51;
         cursor: pointer;
         border: none;
         position: relative;
-        
-        .notification{
+
+        .notification {
           position: absolute;
           top: -8px;
           right: -8px;
@@ -128,6 +128,7 @@ nav {
     }
 
     .menu {
+      display: none;
       position: absolute;
       top: 0;
       right: -50%;
@@ -136,7 +137,6 @@ nav {
       height: 100vh;
       width: 50%;
       transition: all 1s ease;
-      display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -144,6 +144,7 @@ nav {
 
       &.active {
         right: 0;
+        display: flex;
       }
 
       @include sm {

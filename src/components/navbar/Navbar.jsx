@@ -9,14 +9,14 @@ function Navbar() {
   return (
     <nav>
       <div className="left">
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
           <img src="/logo.png" alt="" />
           <span>RealEstate</span>
-        </a>
-        <a href="/">Home</a>
-        <a href="/profile">About</a>
-        <a href="/list">Services</a>
-        <a href="/">Agents</a>
+        </Link>
+        <Link to="/">Home</Link>
+          <Link to="/profile">About</Link>
+          <Link to="/list">Services</Link>
+          <Link to="/addpost">Affiliate with us</Link>
       </div>
       <div className="right">
         {user ? (
@@ -33,10 +33,10 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <a href="/">Sign in</a>
-            <a href="/" className="register">
+            <Link to='/login'>Sign in</Link>
+            <Link to='/register' className="register">
               Sign up
-            </a>
+            </Link>
           </>
         )}
         <div className="menuIcon">
@@ -47,12 +47,12 @@ function Navbar() {
           />
         </div>
         <div className={open ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/profile">About</a>
-          <a href="/list">Services</a>
-          <a href="/">Agents</a>
-          <a href="/login">Sign in</a>
-          <a href="/register">Sign up</a>
+          <Link onClick={() => setOpen(false)} to="/">Home</Link>
+          <Link onClick={() => setOpen(false)} to="/profile">About</Link>
+          <Link onClick={() => setOpen(false)} to="/list">Services</Link>
+          <Link onClick={() => setOpen(false)} to="/addpost">Affiliate with us</Link>
+          <Link onClick={() => setOpen(false)} to="/login">Sign in</Link>
+          <Link onClick={() => setOpen(false)} to="/register">Sign up</Link>
         </div>
       </div>
     </nav>

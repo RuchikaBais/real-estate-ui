@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./profileUpdatePage.scss";
 
 function ProfileUpdatePage() {
@@ -30,7 +31,7 @@ function ProfileUpdatePage() {
             placeholder="Password" />
           </div>
           <button>Update</button>
-          <a href="/profile"> {'<-'} Back</a>
+          <Link to="/profile"> {'<-'} Back</Link>
         </form>
       </div>
       

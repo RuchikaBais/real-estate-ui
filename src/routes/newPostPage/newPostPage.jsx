@@ -4,7 +4,7 @@ function NewPostPage() {
   return (
     <div className="newPostPage">
       <div className="formContainer">
-        <h1>Add New Post</h1>
+        <h1>Suggest us about apartments to buy or sell and Earn commission </h1>
         <div className="wrapper">
           <form>
             <div className="item">
@@ -21,6 +21,7 @@ function NewPostPage() {
             </div>
             <div className="item description">
               <label htmlFor="desc">Description</label>
+              <textarea id="desc" name="desc" type="text" />              
             </div>
             <div className="item">
               <label htmlFor="city">City</label>
@@ -104,7 +105,9 @@ function NewPostPage() {
           </form>
         </div>
       </div>
-      <div className="sideContainer"></div>
+      <div className="sideContainer">
+        <img src="/bg.png" alt="" />
+      </div>
     </div>
   );
 }
