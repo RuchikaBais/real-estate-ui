@@ -1,9 +1,19 @@
+import apartment1 from '/ap1.jpeg';
+import apartment2 from '/ap2.jpeg';
+import apartment3 from '/ap3.webp';
+import apartment4 from '/ap4.jpeg';
+import apartment5 from '/ap5.webp';
+import apartment6 from '/ap6.webp';
+import apartment7 from '/ap7.jpeg';
+import apartment8 from '/ap8.webp';
+import avatar from '/avatar.webp';
+
 
 export const listData = [
     {
       id: 1,
       title: "A Great Apartment Next to the Beach!",
-      img: "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment1,
       bedroom: 2,
       bathroom: 1,
       price: 1000,
@@ -14,7 +24,7 @@ export const listData = [
     {
       id: 2,
       title: "An Awesome Apartment Near the Park! Almost too good to be true!",
-      img: "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment2,
       bedroom: 3,
       bathroom: 2,
       price: 1500,
@@ -25,7 +35,7 @@ export const listData = [
     {
       id: 3,
       title: "A New Apartment in the City!",
-      img: "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment3,
       bedroom: 1,
       bathroom: 1,
       price: 800,
@@ -36,7 +46,7 @@ export const listData = [
     {
       id: 4,
       title: "Great Location! Great Price! Great Apartment!",
-      img: "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment4,
       bedroom: 2,
       bathroom: 1,
       price: 1000,
@@ -47,7 +57,7 @@ export const listData = [
     {
       id: 5,
       title: "Apartment 5",
-      img: "https://images.pexels.com/photos/276625/pexels-photo-276625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment5,
       bedroom: 3,
       bathroom: 2,
       price: 1500,
@@ -58,7 +68,7 @@ export const listData = [
     {
       id: 6,
       title: "Apartment 6",
-      img: "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment6,
       bedroom: 1,
       bathroom: 1,
       price: 800,
@@ -69,7 +79,7 @@ export const listData = [
     {
       id: 7,
       title: "Apartment 7",
-      img: "https://images.pexels.com/photos/2029667/pexels-photo-2029667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment7,
       bedroom: 2,
       bathroom: 1,
       price: 1000,
@@ -80,7 +90,7 @@ export const listData = [
     {
       id: 8,
       title: "Apartment 8",
-      img: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: apartment8,
       bedroom: 3,
       bathroom: 2,
       price: 1500,
@@ -94,12 +104,7 @@ export const listData = [
     id: 1,
     title: "Beautiful Apartment",
     price: 1200,
-    images: [
-      "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    ],
+    images: [apartment1,apartment2,apartment3,apartment4],
     bedRooms: 2,
     bathroom: 1,
     size: 861,
@@ -117,6 +122,6 @@ export const listData = [
   export const userData = {
     id: 1,
     name: "John Doe",
-    img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    img: avatar,
   };
   

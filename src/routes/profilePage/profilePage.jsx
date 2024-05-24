@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Chat from "../../components/chat/Chat";
 import List from "../../components/list/List";
 import "./profilePage.scss";
+import avatar from '/avatar.webp';
+
 
 function ProfilePage() {
   return (
@@ -16,7 +18,7 @@ function ProfilePage() {
             <span>
               Avatar:
               <img
-                src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src={avatar}
                 alt=""
               />
             </span>
