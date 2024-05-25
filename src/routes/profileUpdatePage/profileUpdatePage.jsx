@@ -30,7 +30,7 @@ function ProfileUpdatePage() {
             <input id="password" name="password" type="password"
             placeholder="Password" />
           </div>
-          <button>Update</button>
+          <button>Create</button>
           <Link to="/profile"> {'<-'} Back</Link>
         </form>
       </div>

@@ -4,7 +4,7 @@ function NewPostPage() {
   return (
     <div className="newPostPage">
       <div className="formContainer">
-        <h1>Suggest us about apartments to buy or sell and Earn commission </h1>
+        <h1>Suggest us about apartments to buy or rent and Earn commission </h1>
         <div className="wrapper">
           <form>
             <div className="item">
